@@ -1,0 +1,22 @@
+{
+  "values": [
+    "dimensionalores:quartz_ore",
+    "dimensionalores:deepslate_quartz_ore",
+    "dimensionalores:nether_coal_ore",
+    "dimensionalores:nether_copper_ore",
+    "dimensionalores:nether_diamond_ore",
+    "dimensionalores:nether_emerald_ore",
+    "dimensionalores:nether_iron_ore",
+    "dimensionalores:nether_lapis_ore",
+    "dimensionalores:nether_redstone_ore",
+    "dimensionalores:end_coal_ore",
+    "dimensionalores:end_copper_ore",
+    "dimensionalores:end_diamond_ore",
+    "dimensionalores:end_emerald_ore",
+    "dimensionalores:end_gold_ore",
+    "dimensionalores:end_iron_ore",
+    "dimensionalores:end_lapis_ore",
+    "dimensionalores:end_redstone_ore",
+    "dimensionalores:end_quartz_ore"
+  ]
+}

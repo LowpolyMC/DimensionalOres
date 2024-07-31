@@ -1,0 +1,11 @@
+{
+  "values": [
+    "dimensionalores:nether_diamond_ore",
+    "dimensionalores:nether_emerald_ore",
+    "dimensionalores:nether_redstone_ore",
+    "dimensionalores:end_diamond_ore",
+    "dimensionalores:end_emerald_ore",
+    "dimensionalores:end_gold_ore",
+    "dimensionalores:end_redstone_ore"
+  ]
+}

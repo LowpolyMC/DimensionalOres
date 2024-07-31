@@ -1,0 +1,10 @@
+{
+  "values": [
+    "dimensionalores:nether_copper_ore",
+    "dimensionalores:nether_iron_ore",
+    "dimensionalores:nether_lapis_ore",
+    "dimensionalores:end_copper_ore",
+    "dimensionalores:end_iron_ore",
+    "dimensionalores:end_lapis_ore"
+  ]
+}

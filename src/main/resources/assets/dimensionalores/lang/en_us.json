@@ -1,0 +1,22 @@
+{
+  "block.dimensionalores.quartz_ore": "Quartz Ore",
+  "block.dimensionalores.deepslate_quartz_ore": "Deepslate Quartz Ore",
+  "block.dimensionalores.nether_coal_ore": "Nether Coal Ore",
+  "block.dimensionalores.nether_copper_ore": "Nether Copper Ore",
+  "block.dimensionalores.nether_diamond_ore": "Nether Diamond Ore",
+  "block.dimensionalores.nether_emerald_ore": "Nether Emerald Ore",
+  "block.dimensionalores.nether_iron_ore": "Nether Iron Ore",
+  "block.dimensionalores.nether_lapis_ore": "Nether Lapis Lazuli Ore",
+  "block.dimensionalores.nether_redstone_ore": "Nether Redstone Ore",
+  "block.dimensionalores.end_coal_ore": "End Coal Ore",
+  "block.dimensionalores.end_copper_ore": "End Copper Ore",
+  "block.dimensionalores.end_diamond_ore": "End Diamond Ore",
+  "block.dimensionalores.end_emerald_ore": "End Emerald Ore",
+  "block.dimensionalores.end_gold_ore": "End Gold Ore",
+  "block.dimensionalores.end_iron_ore": "End Iron Ore",
+  "block.dimensionalores.end_lapis_ore": "End Lapis Lazuli Ore",
+  "block.dimensionalores.end_quartz_ore": "End Quartz Ore",
+  "block.dimensionalores.end_redstone_ore": "End Redstone Ore",
+  "dimensionalores.modmenu.license": "License",
+  "dimensionalores.title": "Dimensional Ores"
+}
