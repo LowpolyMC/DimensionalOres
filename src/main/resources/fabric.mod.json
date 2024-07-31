@@ -11,7 +11,7 @@
 		"homepage": "https://modrinth.com/mod/dimensional-ores",
 		"sources": "https://github.com/indeedtough/DimensionalOres"
 	},
-	"license": "MIT",
+	"license": "GPL-3.0",
 	"icon": "fabric.mod.png",
 	"environment": "*",
 	"entrypoints": {
