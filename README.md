@@ -1,35 +1,33 @@
+<center>
+  <a href="https://fabricmc.net"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/supported/fabric_46h.png"></a>
+  <a href="https://quiltmc.org"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/supported/quilt_46h.png"></a>
+</center>
+<center>
+  <a href="https://modrinth.com/mod/dimensionalores"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png"></a>
+</center>
+
 # Dimensional Ores
 Dimensional Ores is a simple Minecraft mod for Fabric that adds all the existing vanilla ores to the Overworld, the Nether and the End while making mining as vanilla as possible.
 
-<div style="text-align: center;">
-  <a href="https://fabricmc.net"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/supported/fabric_46h.png"></a>
-  <a href="https://quiltmc.org"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/supported/quilt_46h.png"></a>
-</div>
-<div style="text-align: center;">
-  <a href="https://modrinth.com/mod/dimensionalores"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png"></a>
-</div>
-
 ## Does this mod need any dependencies?
-<div style="text-align: center;">
-  <table>
-    <tr>
-      <th>Mod</th>
-      <th>Compatibility</th>
-    </tr>
-    <tr>
-      <td><a href="https://modrinth.com/mod/fabric-api">Fabric API</a></td>
-      <td><b>Required (Fabric users only)</b></td>
-    </tr>
-    <tr>
-      <td><a href="https://modrinth.com/mod/qsl">Quilted Fabric API</a></td>
-      <td><b>Required (Quilt users only)</b></td>
-    </tr>
-    <tr>
-      <td><a href="https://modrinth.com/mod/modmenu">Mod Menu</a></td>
-      <td><b>Optional</b></td>
-    </tr>
-  </table>
-</div>
+<table>
+  <tr>
+    <th>Mod</th>
+    <th>Compatibility</th>
+  </tr>
+  <tr>
+    <td><a href="https://modrinth.com/mod/fabric-api">Fabric API</a></td>
+    <td><b>Required (Fabric users only)</b></td>
+  </tr>
+  <tr>
+    <td><a href="https://modrinth.com/mod/qsl">Quilted Fabric API</a></td>
+    <td><b>Required (Quilt users only)</b></td>
+  </tr>
+  <tr>
+    <td><a href="https://modrinth.com/mod/modmenu">Mod Menu</a></td>
+    <td><b>Optional</b></td>
+  </tr>
+</table>
 
 ## Other Questions
 
