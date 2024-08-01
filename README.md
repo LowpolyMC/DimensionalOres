@@ -1,16 +1,16 @@
 # Dimensional Ores
 Dimensional Ores is a simple Minecraft mod for Fabric that adds all the existing vanilla ores to the Overworld, the Nether and the End while making mining as vanilla as possible.
 
-<div style="text-align: center;">
+<center>
   <a href="https://fabricmc.net"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/supported/fabric_46h.png"></a>
   <a href="https://quiltmc.org"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/supported/quilt_46h.png"></a>
-</div>
-<div style="text-align: center;">
+</center>
+<center>
   <a href="https://modrinth.com/mod/dimensionalores"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png"></a>
-</div>
+</center>
 
 ## Does this mod need any dependencies?
-<div style="text-align: center;">
+<center>
   <table>
     <tr>
       <th>Mod</th>
@@ -29,7 +29,7 @@ Dimensional Ores is a simple Minecraft mod for Fabric that adds all the existing
       <td><b>Optional</b></td>
     </tr>
   </table>
-</div>
+</center>
 
 ## Other Questions
 
