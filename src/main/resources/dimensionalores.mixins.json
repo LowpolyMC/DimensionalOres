@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "indeedtough.dimensionalores.mixin",
+  "package": "teamcouncil.dimensionalores.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ExampleMixin"

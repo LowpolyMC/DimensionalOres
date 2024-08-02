@@ -1,5 +1,5 @@
 {
-  "feature": "dimensionalores:nether_lapis_ores",
+  "feature": "dimensionalores:nether_lapis_ore",
   "placement": [
     {
       "type": "minecraft:count",

@@ -1,5 +1,5 @@
 {
-  "feature": "dimensionalores:end_coal_ores",
+  "feature": "dimensionalores:end_coal_ore",
   "placement": [
     {
       "type": "minecraft:count",

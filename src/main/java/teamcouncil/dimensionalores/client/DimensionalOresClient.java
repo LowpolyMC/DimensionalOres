@@ -1,7 +1,8 @@
-package indeedtough.dimensionalores;
+package teamcouncil.dimensionalores.client;
 
 import net.fabricmc.api.ClientModInitializer;
 import org.slf4j.LoggerFactory;
+import teamcouncil.dimensionalores.DimensionalOres;
 
 public class DimensionalOresClient implements ClientModInitializer {
     @Override

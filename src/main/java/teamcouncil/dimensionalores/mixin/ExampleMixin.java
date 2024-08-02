@@ -1,4 +1,4 @@
-package indeedtough.dimensionalores.mixin;
+package teamcouncil.dimensionalores.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

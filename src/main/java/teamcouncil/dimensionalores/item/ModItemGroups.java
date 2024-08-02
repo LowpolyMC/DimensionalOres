@@ -1,8 +1,8 @@
-package indeedtough.dimensionalores.item;
+package teamcouncil.dimensionalores.item;
 
-import indeedtough.dimensionalores.DimensionalOres;
-import indeedtough.dimensionalores.DimensionalOresClient;
-import indeedtough.dimensionalores.block.ModBlocks;
+import teamcouncil.dimensionalores.DimensionalOres;
+import teamcouncil.dimensionalores.client.DimensionalOresClient;
+import teamcouncil.dimensionalores.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroup;

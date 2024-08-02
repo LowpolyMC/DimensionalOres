@@ -1,5 +1,5 @@
 {
-  "feature": "dimensionalores:end_redstone_ores",
+  "feature": "dimensionalores:end_redstone_ore",
   "placement": [
     {
       "type": "minecraft:count",

@@ -1,5 +1,5 @@
 {
-  "feature": "dimensionalores:nether_copper_ores",
+  "feature": "dimensionalores:nether_copper_ore",
   "placement": [
     {
       "type": "minecraft:count",

@@ -1,7 +1,7 @@
-package indeedtough.dimensionalores.block;
+package teamcouncil.dimensionalores.block;
 
-import indeedtough.dimensionalores.DimensionalOres;
-import indeedtough.dimensionalores.DimensionalOresClient;
+import teamcouncil.dimensionalores.DimensionalOres;
+import teamcouncil.dimensionalores.client.DimensionalOresClient;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -32,8 +32,8 @@ public class ModBlocks {
     public static final Block END_GOLD_ORE = registerBlock("end_gold_ore", new ExperienceDroppingBlock(ConstantIntProvider.create(0), AbstractBlock.Settings.copy(net.minecraft.block.Blocks.END_STONE).strength(3.0F, 9.0F)));
     public static final Block END_IRON_ORE = registerBlock("end_iron_ore", new ExperienceDroppingBlock(ConstantIntProvider.create(0), AbstractBlock.Settings.copy(net.minecraft.block.Blocks.END_STONE).strength(3.0F, 9.0F)));
     public static final Block END_LAPIS_ORE = registerBlock("end_lapis_ore", new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.copy(net.minecraft.block.Blocks.END_STONE).strength(3.0F, 9.0F)));
-    public static final Block END_REDSTONE_ORE = registerBlock("end_redstone_ore", new RedstoneOreBlock(AbstractBlock.Settings.copy(net.minecraft.block.Blocks.END_STONE).ticksRandomly().luminance(net.minecraft.block.Blocks.createLightLevelFromLitBlockState(9)).strength(3.0F, 9.0F)));
     public static final Block END_QUARTZ_ORE = registerBlock("end_quartz_ore", new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.copy(net.minecraft.block.Blocks.END_STONE).strength(3.0F, 9.0F)));
+    public static final Block END_REDSTONE_ORE = registerBlock("end_redstone_ore", new RedstoneOreBlock(AbstractBlock.Settings.copy(net.minecraft.block.Blocks.END_STONE).ticksRandomly().luminance(net.minecraft.block.Blocks.createLightLevelFromLitBlockState(9)).strength(3.0F, 9.0F)));
 
     private static Block registerBlock(String name, Block block) {
         registerItem(name, block);

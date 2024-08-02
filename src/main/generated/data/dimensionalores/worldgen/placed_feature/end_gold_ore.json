@@ -1,5 +1,5 @@
 {
-  "feature": "dimensionalores:end_gold_ores",
+  "feature": "dimensionalores:end_gold_ore",
   "placement": [
     {
       "type": "minecraft:count",

@@ -1,5 +1,5 @@
 {
-  "feature": "dimensionalores:nether_diamond_ores",
+  "feature": "dimensionalores:nether_diamond_ore",
   "placement": [
     {
       "type": "minecraft:count",

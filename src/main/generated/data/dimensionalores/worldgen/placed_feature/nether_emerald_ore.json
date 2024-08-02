@@ -1,5 +1,5 @@
 {
-  "feature": "dimensionalores:nether_emerald_ores",
+  "feature": "dimensionalores:nether_emerald_ore",
   "placement": [
     {
       "type": "minecraft:count",

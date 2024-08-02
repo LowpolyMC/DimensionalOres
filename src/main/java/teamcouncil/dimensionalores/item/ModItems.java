@@ -1,6 +1,6 @@
-package indeedtough.dimensionalores.item;
+package teamcouncil.dimensionalores.item;
 
-import indeedtough.dimensionalores.block.ModBlocks;
+import teamcouncil.dimensionalores.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 
 public class ModItems {

@@ -1,5 +1,5 @@
 {
-  "feature": "dimensionalores:nether_redstone_ores",
+  "feature": "dimensionalores:nether_redstone_ore",
   "placement": [
     {
       "type": "minecraft:count",

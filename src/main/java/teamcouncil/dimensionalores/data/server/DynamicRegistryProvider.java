@@ -1,4 +1,4 @@
-package indeedtough.dimensionalores.data.server;
+package teamcouncil.dimensionalores.data.server;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricDynamicRegistryProvider;

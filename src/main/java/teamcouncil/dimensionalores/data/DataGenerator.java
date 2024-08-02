@@ -1,8 +1,8 @@
-package indeedtough.dimensionalores.data;
+package teamcouncil.dimensionalores.data;
 
-import indeedtough.dimensionalores.data.server.*;
-import indeedtough.dimensionalores.world.ModConfiguredFeatures;
-import indeedtough.dimensionalores.world.ModPlacedFeatures;
+import teamcouncil.dimensionalores.data.server.*;
+import teamcouncil.dimensionalores.world.ModConfiguredFeatures;
+import teamcouncil.dimensionalores.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;

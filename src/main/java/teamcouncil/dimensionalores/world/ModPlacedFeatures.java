@@ -1,6 +1,6 @@
-package indeedtough.dimensionalores.world;
+package teamcouncil.dimensionalores.world;
 
-import indeedtough.dimensionalores.DimensionalOres;
+import teamcouncil.dimensionalores.DimensionalOres;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -15,7 +15,8 @@ import net.minecraft.world.gen.placementmodifier.PlacementModifier;
 import java.util.List;
 
 public class ModPlacedFeatures {
-    public static final RegistryKey<PlacedFeature> OVERWORLD_QUARTZ_ORE_PLACED_KEY = registerKey("overworld_quartz_ore");
+    public static final RegistryKey<PlacedFeature> QUARTZ_ORE_PLACED_KEY = registerKey("quartz_ore");
+    public static final RegistryKey<PlacedFeature> DEEPSLATE_QUARTZ_ORE_PLACED_KEY = registerKey("deepslate_quartz_ore");
 
     public static final RegistryKey<PlacedFeature> NETHER_COAL_ORE_PLACED_KEY = registerKey("nether_coal_ore");
     public static final RegistryKey<PlacedFeature> NETHER_COPPER_ORE_PLACED_KEY = registerKey("nether_copper_ore");
@@ -38,57 +39,60 @@ public class ModPlacedFeatures {
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
-        register(context, OVERWORLD_QUARTZ_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.OVERWORLD_QUARTZ_ORES_KEY),
-                OrePlacement.modifiersWithCount(8,
-                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-128), YOffset.fixed(64))));
+        register(context, QUARTZ_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.QUARTZ_ORE_KEY),
+                OrePlacement.modifiersWithCount(10,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-128), YOffset.fixed(96))));
+        register(context, DEEPSLATE_QUARTZ_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_QUARTZ_ORE_KEY),
+                OrePlacement.modifiersWithCount(10,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-128), YOffset.fixed(96))));
 
-        register(context, NETHER_COAL_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_COAL_ORES_KEY),
+        register(context, NETHER_COAL_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_COAL_ORE_KEY),
                 OrePlacement.modifiersWithCount(5,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, NETHER_COPPER_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_COPPER_ORES_KEY),
+        register(context, NETHER_COPPER_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_COPPER_ORE_KEY),
                 OrePlacement.modifiersWithCount(5,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, NETHER_DIAMOND_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_DIAMOND_ORES_KEY),
+        register(context, NETHER_DIAMOND_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_DIAMOND_ORE_KEY),
                 OrePlacement.modifiersWithCount(5,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, NETHER_EMERALD_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_EMERALD_ORES_KEY),
+        register(context, NETHER_EMERALD_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_EMERALD_ORE_KEY),
                 OrePlacement.modifiersWithCount(5,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, NETHER_IRON_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_IRON_ORES_KEY),
+        register(context, NETHER_IRON_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_IRON_ORE_KEY),
                 OrePlacement.modifiersWithCount(5,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, NETHER_LAPIS_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_LAPIS_ORES_KEY),
+        register(context, NETHER_LAPIS_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_LAPIS_ORE_KEY),
                 OrePlacement.modifiersWithCount(5,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, NETHER_REDSTONE_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_REDSTONE_ORES_KEY),
+        register(context, NETHER_REDSTONE_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.NETHER_REDSTONE_ORE_KEY),
                 OrePlacement.modifiersWithCount(5,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
 
-        register(context, END_COAL_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_COAL_ORES_KEY),
+        register(context, END_COAL_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_COAL_ORE_KEY),
                 OrePlacement.modifiersWithCount(4,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, END_COPPER_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_COPPER_ORES_KEY),
+        register(context, END_COPPER_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_COPPER_ORE_KEY),
                 OrePlacement.modifiersWithCount(4,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, END_DIAMOND_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_DIAMOND_ORES_KEY),
+        register(context, END_DIAMOND_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_DIAMOND_ORE_KEY),
                 OrePlacement.modifiersWithCount(3,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, END_EMERALD_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_EMERALD_ORES_KEY),
+        register(context, END_EMERALD_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_EMERALD_ORE_KEY),
                 OrePlacement.modifiersWithCount(4,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, END_GOLD_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_GOLD_ORES_KEY),
+        register(context, END_GOLD_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_GOLD_ORE_KEY),
                 OrePlacement.modifiersWithCount(4,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, END_IRON_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_IRON_ORES_KEY),
+        register(context, END_IRON_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_IRON_ORE_KEY),
                 OrePlacement.modifiersWithCount(4,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, END_LAPIS_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_LAPIS_ORES_KEY),
+        register(context, END_LAPIS_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_LAPIS_ORE_KEY),
                 OrePlacement.modifiersWithCount(4,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, END_REDSTONE_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_REDSTONE_ORES_KEY),
+        register(context, END_REDSTONE_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_REDSTONE_ORE_KEY),
                 OrePlacement.modifiersWithCount(4,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
-        register(context, END_QUARTZ_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_QUARTZ_ORES_KEY),
+        register(context, END_QUARTZ_ORE_PLACED_KEY, configuredFeatureRegistryLookup.getOrThrow(ModConfiguredFeatures.END_QUARTZ_ORE_KEY),
                 OrePlacement.modifiersWithCount(4,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(0), YOffset.fixed(128))));
     }

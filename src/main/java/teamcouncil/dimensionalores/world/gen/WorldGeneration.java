@@ -1,4 +1,4 @@
-package indeedtough.dimensionalores.world.gen;
+package teamcouncil.dimensionalores.world.gen;
 
 public class WorldGeneration {
     public static void register() {

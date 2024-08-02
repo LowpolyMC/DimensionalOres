@@ -1,5 +1,5 @@
 {
-  "feature": "dimensionalores:end_lapis_ores",
+  "feature": "dimensionalores:end_lapis_ore",
   "placement": [
     {
       "type": "minecraft:count",

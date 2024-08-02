@@ -5,24 +5,28 @@
 	"name": "Dimensional Ores",
 	"description": "Adds all vanilla ores to the Overworld, the Nether, and the End",
 	"authors": [
+		"Team Council",
 		"indeedtough"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/dimensional-ores",
-		"sources": "https://github.com/indeedtough/DimensionalOres"
+		"sources": "https://github.com/TeamCouncil/DimensionalOres"
 	},
 	"license": "GPL-3.0",
 	"icon": "fabric.mod.png",
 	"environment": "*",
 	"entrypoints": {
-		"client": [
-			"indeedtough.dimensionalores.DimensionalOresClient"
-		],
 		"main": [
-			"indeedtough.dimensionalores.DimensionalOres"
+			"teamcouncil.dimensionalores.DimensionalOres"
+		],
+		"client": [
+			"teamcouncil.dimensionalores.client.DimensionalOresClient"
 		],
 		"fabric-datagen": [
-			"indeedtough.dimensionalores.data.DataGenerator"
+			"teamcouncil.dimensionalores.data.DataGenerator"
+		],
+		"modmenu": [
+			"teamcouncil.dimensionalores.compat.ModMenuIntegration"
 		]
 	},
 	"mixins": [
@@ -32,15 +36,16 @@
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.21",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"yet_another_config_lib_v3": ">=3.5.0"
 	},
 	"suggests": {
-		"modmenu": "*"
+		"modmenu": ">=11.0.0"
 	},
 	"custom": {
 		"modmenu": {
 			"links": {
-				"dimensionalores.modmenu.license": "https://raw.githubusercontent.com/indeedtough/DimensionalOres/master/LICENSE"
+				"dimensionalores.modmenu.license": "https://raw.githubusercontent.com/TeamCouncil/DimensionalOres/master/LICENSE"
 			}
 		}
 	}

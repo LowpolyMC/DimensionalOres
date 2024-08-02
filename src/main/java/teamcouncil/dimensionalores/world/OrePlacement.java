@@ -1,4 +1,4 @@
-package indeedtough.dimensionalores.world;
+package teamcouncil.dimensionalores.world;
 
 import net.minecraft.world.gen.placementmodifier.*;
 

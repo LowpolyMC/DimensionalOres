@@ -6,15 +6,6 @@
     "targets": [
       {
         "state": {
-          "Name": "dimensionalores:quartz_ore"
-        },
-        "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:stone_ore_replaceables"
-        }
-      },
-      {
-        "state": {
           "Name": "dimensionalores:deepslate_quartz_ore"
         },
         "target": {

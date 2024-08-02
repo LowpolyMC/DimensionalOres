@@ -1,5 +1,5 @@
 {
-  "feature": "dimensionalores:nether_coal_ores",
+  "feature": "dimensionalores:nether_coal_ore",
   "placement": [
     {
       "type": "minecraft:count",

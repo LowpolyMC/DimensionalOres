@@ -1,6 +1,6 @@
-package indeedtough.dimensionalores.data.server;
+package teamcouncil.dimensionalores.data.server;
 
-import indeedtough.dimensionalores.block.ModBlocks;
+import teamcouncil.dimensionalores.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;

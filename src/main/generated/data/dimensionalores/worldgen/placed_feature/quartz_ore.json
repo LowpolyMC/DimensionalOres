@@ -1,9 +1,9 @@
 {
-  "feature": "dimensionalores:overworld_quartz_ores",
+  "feature": "dimensionalores:quartz_ore",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 8
+      "count": 10
     },
     {
       "type": "minecraft:in_square"
@@ -13,7 +13,7 @@
       "height": {
         "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "absolute": 64
+          "absolute": 96
         },
         "min_inclusive": {
           "absolute": -128

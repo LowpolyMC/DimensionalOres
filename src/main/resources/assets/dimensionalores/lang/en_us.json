@@ -17,6 +17,7 @@
   "block.dimensionalores.end_lapis_ore": "End Lapis Lazuli Ore",
   "block.dimensionalores.end_quartz_ore": "End Quartz Ore",
   "block.dimensionalores.end_redstone_ore": "End Redstone Ore",
+  "dimensionalores.config.warning": "You must restart Minecraft in order to apply these changes.",
   "dimensionalores.modmenu.license": "License",
   "dimensionalores.title": "Dimensional Ores"
 }
